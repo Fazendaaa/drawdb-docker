@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  drawdb:
+    build: .
+    #volumes:
+    #  - ${PWD}/drawdb:/usr/local/
+    ports:
+      - 80:80
